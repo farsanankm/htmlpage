@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Image dropdown hover</title>
+        <style>
+            .drop1:hover .drop2{
+                display: block;
+
+            }
+            .drop1{
+                width: 200px;
+
+            }
+            .drop2{
+                display: none;
+                z-index: -1;
+
+            }
+            h4{
+                text-align: center;
+            }
+            p:hover{
+                color: rgb(234, 155, 20);
+                font-size: 20px;
+            }
+            h4:hover{
+                background-color: rgb(242, 52, 52);
+                color: rgb(41, 37, 37);
+                font-size: 30px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the page</h1>
+        <p>click the image</p>
+        <div class="drop1">
+            <img src="/image/penguin.jpg" alt="penguin" style="width: 200px; height: 100px;">
+            <div class="drop2">
+                <img src="/image/pikachu.jpg" alt="pickachu" style="width: 300px; height: 400px;">
+                <h4>Hey Buddy</h4>
+            </div>
+
+        </div>
+    </body>
+</html>
